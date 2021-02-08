@@ -1,4 +1,4 @@
-FROM gcr.io/deepnote-200602/templates/deepnote
+FROM deepnote/python:3.7
 
 # python env
 RUN pip install plotly h5py matplotlib numpy pandas astropy jupyter
